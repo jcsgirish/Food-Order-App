@@ -1,6 +1,13 @@
-import React from "react"
+import {Fragment}from "react"
+import AvailableMeals from "./AvailableMeals"
+import Mealssummary from "./MealsSummary"
 
 const Meals =()=>{
-    return 
+
+    return <Fragment>
+        <Mealssummary></Mealssummary>
+        <AvailableMeals></AvailableMeals>
+        </Fragment>
+    
 }
 export default Meals
